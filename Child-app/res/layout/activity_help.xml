@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical" android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/a">
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="155dp"
+         android:layout_centerHorizontal="true"
+         android:text="@string/INSTRUCTIONS......"
+         android:textColor="#009900"
+         android:textSize="20sp" />
+
+     <Button
+         android:id="@+id/back"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:text="@string/Back"
+         android:background="@android:color/background_light"
+         android:textStyle="bold|italic" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView4"
+         android:layout_below="@+id/textView1"
+         android:text="1. First select the alphabet and     observe the image corresponding to that."
+         android:textAppearance="?android:attr/textAppearanceMedium" 
+         android:textColor="#6a5acd"/>
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView5"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/textView4"
+         android:textColor="#6a5acd"
+         android:text="3. Then choose the proper color of that image. "
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/textView2"
+         android:layout_marginLeft="18dp"
+         android:text="4. Have fun with learning. "
+         android:textColor="#6a5acd"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView5"
+         android:layout_below="@+id/textView3"
+         android:textColor="#6a5acd"
+         android:text="2. Choose the proper spelling of that image object. "
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#6a5acd"
+         android:layout_alignLeft="@+id/textView5"
+         android:layout_below="@+id/textView5"
+         android:text="5. Thank you..."
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+  </RelativeLayout>
+
+
+
+
+
+
+
+

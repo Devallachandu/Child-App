@@ -1,0 +1,43 @@
+ 
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/splash"
+       tools:context=".MainActivity" >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="28dp"
+           android:text="@string/Ready_to_MoGeefun_atoz"
+           android:textSize="32sp"
+           android:textColor="#ffffff"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true"
+           android:layout_marginBottom="37dp"
+           android:layout_marginLeft="64dp"
+           android:text="Loading...."
+           android:textColor="#ffffff"
+           android:textSize="28sp"
+           android:typeface="monospace" />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textView2"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="58dp" />
+
+    </RelativeLayout>
