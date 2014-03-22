@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Child-App</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Splash</string>
     <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_abcmain">ABCMainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_new_game">NewGameActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="NEW_GAME">NEW_GAME</string>
+    <string name="QUIT">QUIT</string>
+    <string name="HELP">HELP</string>
+    <string name="INSTRUCTIONS......">INSTRUCTIONS......</string>
+    <string name="Ready_to_MoGeefun_atoz">Ready_to_MoGeefun_atoz</string>
+    <string name="Back">Back</string>
+    <string name="title_activity_game_second">GameSecondActivity</string>
+    <string name="title_activity_spelling">SpellingActivity</string>
+    <string name="title_activity_custom_spelling">CustomSpelling</string>
+    <string name="title_activity_color">ColorActivity</string>
+    <string name="title_activity_activity_sorry">ActivitySorry</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_video_activity1">VideoActivity1</string>
+    <string name="title_activity_video_activity2">VideoActivity2</string>
+    <string name="title_activity_video_activity3">VideoActivity3</string>
+    <string name="title_activity_video_activity4">VideoActivity4</string>
+    <string name="title_activity_video_activity5">VideoActivity5</string>
+    <string name="title_activity_video_activity6">VideoActivity6</string>
+    <string name="title_activity_video_activity7">VideoActivity7</string>
 
 </resources>
